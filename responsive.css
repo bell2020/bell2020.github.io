@@ -1,0 +1,255 @@
+@charset "UTF-8";
+@media (max-width: 1024px) {
+  header {
+    height: 900px;
+  }
+  header .header-container {
+    padding-top: 400px;
+  }
+  .menu-bar li {
+    height: 40px;
+    line-height: 40px;
+  }
+  .menu-bar li .menu-link {
+    padding: 0  20px;
+  }
+  .left-about {
+    padding: 50px;
+  }
+  .left-about p {
+    width: 90%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .menu-container .food-container {
+    display: block;
+  }
+  .menu-container .food-container .food {
+    width: 100%;
+  }
+  .googlecalender {
+    width: 250px;
+    height: 250px;
+  }
+  .calender-text {
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 10px;
+  }
+  .btn {
+    height: 30px;
+    font-size: 17px;
+    width: 80%;
+    line-height: 30px;
+  }
+  .profile-wrapper .profile-container .profile-text {
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .googlemap {
+    width: 250px;
+    height: 250px;
+  }
+  .contact-wrapper .contact-form {
+    display: block;
+  }
+  .contact-wrapper .contact-form .right {
+    width: 100%;
+    padding-left: 0;
+  }
+  .contact-wrapper .contact-form .left {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 100%;
+  }
+  header {
+    height: 600px;
+  }
+  header .header-container {
+    padding-top: 200px;
+  }
+  header .header-container h1 {
+    font-size: 45px;
+  }
+  header .header-container p {
+    font-size: 15px;
+  }
+  .menu-bar {
+    display: none;
+  }
+  .about-wrapper {
+    margin-top: 0;
+    display: block;
+  }
+  .left-about {
+    width: 100%;
+  }
+  .left-about h1 {
+    font-size: 25px;
+  }
+  .left-about h2 {
+    font-size: 12px;
+    width: 100%;
+  }
+  .left-about p {
+    width: 100%;
+  }
+  .right-about {
+    height: 300px;
+    width: 100%;
+  }
+  .menu-container {
+    padding: 50px;
+  }
+  .menu-container h1 {
+    font-size: 25px;
+  }
+  .menu-container h2 {
+    font-size: 12px;
+    width: 100%;
+  }
+  .menu-container p {
+    width: 100%;
+  }
+  .menu-container .food-container .food {
+    margin: 20px 0;
+  }
+  .menu-container .food-container .food .food-image1 {
+    background-image: url("https://d1f5hsy4d47upe.cloudfront.net/4c/4c18bc82df3608b0d1375bd5636a2593_w.jpg");
+    /* 表示する画像 */
+    width: 200px;
+    /* ※縦横を同値に */
+    height: 200px;
+    /* ※縦横を同値に */
+    border-radius: 50%;
+    /* 角丸半径を50%にする(=円形にする) */
+    background-position: center;
+    /* 横長画像の左上を基準に表示 */
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .menu-container .food-container .food .food-image2 {
+    background-image: url("https://d1f5hsy4d47upe.cloudfront.net/f8/f887bd3c54267336ca3f9bbe4c51735f_w.jpg");
+    /* 表示する画像 */
+    width: 200px;
+    /* ※縦横を同値に */
+    height: 200px;
+    /* ※縦横を同値に */
+    border-radius: 50%;
+    /* 角丸半径を50%にする(=円形にする) */
+    background-position: center;
+    /* 横長画像の左上を基準に表示 */
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .menu-container .food-container .food .food-image3 {
+    background-image: url("https://d1f5hsy4d47upe.cloudfront.net/b4/b48a859e25af16c991d1ef5e0bdc31e8_w.jpg");
+    /* 表示する画像 */
+    width: 200px;
+    /* ※縦横を同値に */
+    height: 200px;
+    /* ※縦横を同値に */
+    border-radius: 50%;
+    /* 角丸半径を50%にする(=円形にする) */
+    background-position: center;
+    /* 横長画像の左上を基準に表示 */
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .profile-wrapper {
+    padding: 50px;
+  }
+  .profile-wrapper h1 {
+    font-size: 25px;
+  }
+  .profile-wrapper h2 {
+    font-size: 12px;
+    width: 100%;
+  }
+  .profile-wrapper p {
+    width: 100%;
+  }
+  .profile-wrapper .profile-container {
+    display: block;
+  }
+  .profile-wrapper .profile-container .profile-text {
+    width: 100%;
+  }
+  .profile-wrapper .profile-container .profile-map {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .contact-wrapper {
+    padding: 50px;
+  }
+  .contact-wrapper h1 {
+    font-size: 25px;
+  }
+  .contact-wrapper h2 {
+    font-size: 12px;
+    width: 100%;
+  }
+  .contact-wrapper p {
+    width: 100%;
+  }
+  .contact-wrapper .contact-form {
+    display: block;
+  }
+  .contact-wrapper .contact-form .contact-item {
+    width: 200px;
+  }
+  .contact-wrapper .contact-form .right textarea {
+    width: 230px;
+    height: 100px;
+  }
+  .contact-wrapper .contact-form .left input {
+    width: 230px;
+    height: 50px;
+  }
+  .schedule-container {
+    padding: 50px;
+  }
+  .schedule-container h1 {
+    font-size: 25px;
+  }
+  .schedule-container h2 {
+    font-size: 12px;
+    width: 100%;
+  }
+  .schedule-container p {
+    width: 100%;
+  }
+  .calender-container {
+    display: block;
+  }
+  .calender-text {
+    width: 100%;
+  }
+  .calender-text .btn {
+    width: 95%;
+  }
+  .calender {
+    width: 100%;
+    margin-top: 20px;
+  }
+  footer {
+    padding: 30px 50px;
+  }
+  footer .footer-container {
+    display: block;
+  }
+  footer .footer-container .logo {
+    width: 100%;
+  }
+  footer .footer-container .sns {
+    width: 100%;
+  }
+  footer .copy-right {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
